@@ -34,6 +34,7 @@ After completing this lab, learners will have demonstrated the ability to:
     if (!response.ok) throw new Error("Failed to fetch starships");
     return response.json();
   }
+  
   ```
 - Fetch all starships and render a **card** for each one in `<App>`.
 - Each card should display the starship's **name**.

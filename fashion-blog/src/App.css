@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  background: #0d0d0d;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.app {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  font-size: 48px;
+  margin: 0;
+}
+
+.tagline {
+  color: #ff3333;
+  letter-spacing: 2px;
+  margin-top: 5px;
+}
+
+/* NAV */
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  color: #ff3333;
+}
+
+/* GRID */
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+/* POST CARD */
+.post-card {
+  border: 2px solid #ff3333;
+  padding: 15px;
+  background: #1a1a1a;
+}
+
+.label {
+  background: #ff3333;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.post-img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.post-title {
+  margin: 10px 0 5px;
+  font-size: 20px;
+}
+
+.post-subtitle {
+  color: #cccccc;
+  margin-bottom: 10px;
+}
+
+.continue {
+  color: #ff3333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #666;
+}

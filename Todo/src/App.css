@@ -1,0 +1,109 @@
+/* Center the app container */
+.app {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 24px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Add-todo form */
+.todo-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.todo-form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.todo-form button {
+  padding: 10px 16px;
+  background: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.todo-form button:hover {
+  background: #005fcc;
+}
+
+/* Empty state */
+.empty {
+  text-align: center;
+  color: #777;
+  margin-top: 20px;
+}
+
+/* Todo list */
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Todo item */
+.todo-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.todo-item:last-child {
+  border-bottom: none;
+}
+
+.todo-item .todo-text {
+  flex: 1;
+}
+
+.todo-item.completed .todo-text {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Buttons */
+.todo-item button {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.todo-item button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.todo-item button:nth-child(3) {
+  background: #ffaa00;
+  color: white;
+}
+
+.todo-item button:nth-child(4) {
+  background: #ff4444;
+  color: white;
+}
+
+.todo-item button:nth-child(3):hover {
+  background: #dd8f00;
+}
+
+.todo-item button:nth-child(4):hover {
+  background: #cc0000;
+}
